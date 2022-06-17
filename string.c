@@ -18,6 +18,7 @@ char *my_strcpy(char *t, char *s)
   return p;
 }
 
+/* This is Main function */
 int main(void)
 {
   int i;
