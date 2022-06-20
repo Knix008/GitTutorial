@@ -9,6 +9,8 @@ size_t my_strlen(const char *s)
   return (p - s);
 }
 
+/* New feature */
+
 /* My String Copy */
 char *my_strcpy(char *t, char *s)
 {
