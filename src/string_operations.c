@@ -23,7 +23,7 @@ char *my_strcat(char *t, char *s)
 }
 
 /* Wide character support */
-size_t w_strlen(const wchar_t *s)
+size_t my_wc_strlen(const wchar_t *s)
 {
   const wchar_t *p = s;
   while (*p)
