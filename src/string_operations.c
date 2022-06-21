@@ -10,6 +10,15 @@ size_t my_strlen(const char *s)
 }
 
 /* New feature */
+char *my_strcat(char *t, char *s)
+{
+  char *p = t;
+  while (*p)
+    p++;
+  while (*p++ = *s++)
+    ;
+  return t;
+}
 
 /* My String Copy */
 char *my_strcpy(char *t, char *s)
