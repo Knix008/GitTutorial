@@ -31,6 +31,17 @@ size_t my_wstrlen(const wchar_t *s)
   return (p - s);
 }
 
+wchar_t *my_wstrchr(wchar_t *ws, wchar_t wc)
+{
+  while (*ws)
+  {
+    if (*ws == wc)
+      return ws;
+    ++ws;
+  }
+  return NULL;
+}
+
 /* My String Copy */
 char *my_strcpy(char *t, char *s)
 {
