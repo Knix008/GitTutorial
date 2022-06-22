@@ -23,12 +23,23 @@ char *my_strcat(char *t, char *s)
 }
 
 /* Wide character support */
-size_t my_wc_strlen(const wchar_t *s)
+size_t my_wstrlen(const wchar_t *s)
 {
   const wchar_t *p = s;
   while (*p)
     ++p;
   return (p - s);
+}
+
+wchar_t *my_wstrchr(wchar_t *ws, wchar_t wc)
+{
+  while (*ws)
+  {
+    if (*ws == wc)
+      return ws;
+    ++ws;
+  }
+  return NULL;
 }
 
 /* My String Copy */
