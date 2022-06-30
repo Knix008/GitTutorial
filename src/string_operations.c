@@ -11,7 +11,7 @@ size_t my_strlen(const char *s)
   return (p - s);
 }
 
-/* New feature */
+/* My string concatenation */
 char *my_strcat(char *t, char *s)
 {
   char *p = t;
