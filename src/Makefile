@@ -1,3 +1,4 @@
+# Building executable.
 mystring : string_operations.o
 	gcc -o mystring string_operations.o
 
