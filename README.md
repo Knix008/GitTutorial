@@ -1,2 +1,4 @@
 # GitTutorial
-Git Tutorial : v1 
+Git Tutorial : v2
+
+Now it is version v2
